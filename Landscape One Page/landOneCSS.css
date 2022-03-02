@@ -76,29 +76,37 @@ font-family: Arial, Helvetica, sans-serif;
     }
   }
 
-.detailText{
-  position:absolute;
-  padding: 40px;
-  margin-left: 40px;
-  display: block;
+.container{
+  position: absolute;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.2) ;
+  width: 80vw;
+  height: 100px;
+  align-content: center;
+  left:8%;
 }
 
-.textContainer{
-  width: 100%;
-  height: 30vh;
-  display: flex;
-  align-content: space-evenly;
+.w3-display-left{
+  align-content: left;
+  position: relative;
 }
-.detailText h1{
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
+.w3-display-right{
+  align-content: left;
+  position: relative;
+}
+
+.title{
+  padding-top: 15px;
   font-size: 60px;
-  color: rgb(231, 170, 89);
-  
+  text-align: center;
 }
-.textParagraph{
-  width: 500px;
-  height: 130px;
+
+.mySlides{
   display: flex;
-  margin-right: 100px;
+  width: 80vw;
+  padding-left: 30px;
+  padding-right: 30px;
 }
+
